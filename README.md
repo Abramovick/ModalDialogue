@@ -194,8 +194,8 @@ If the customClass property is set then the specified class(es) will be set on t
 
 The animate property is an object with two properties:
 
-- __in__ - the animation used when opening the dialogue.
-- __out__ - the animation used when closing the dialogue.
+- __animateIn__ - the animation used when opening the dialogue.
+- __animateOut__ - the animation used when closing the dialogue.
 
 The out property can have any of the following properties:
 
@@ -219,8 +219,8 @@ For example:
 		'title' : 'Hello World',
 		'body' : 'Lorum Ipsum',
 		'animate' : {
-			'in' : 'fadeIn',
-			'out' : 'slideOutBottom'
+			'animateIn' : 'fadeIn',
+			'animateOut' : 'slideOutBottom'
 		}
 	}
 
